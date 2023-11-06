@@ -1,0 +1,23 @@
+{
+  "name": "oasis-advisor",
+  "version": "1.0.0",
+  "description": "Script to extract, transform and load data from advisor page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soporte-web-OHR/oasis-advisor.git"
+  },
+  "author": "Joan M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soporte-web-OHR/oasis-advisor/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/soporte-web-OHR/oasis-advisor#readme",
+  "dependencies": {
+    "puppeteer": "^20.5.0"
+  }
+}
