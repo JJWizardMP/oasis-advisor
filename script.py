@@ -14,7 +14,7 @@ URL_ADVISOR = "https://www.tripadvisor.com.mx"
 # BUTTON_RATE = "//ul[@class='LojWi w S4']"
 # PER_PAGE = 5
 # Class of Elements
-CARD_COMMENT = "div.YibKl.MC.R2.Gi.z.Z.BB.pBbQr"
+CARD_COMMENT = "div.YibKl.MC.Gi.z.Z.BB.pBbQr"
 CARD_COMMENT_XPATH = "//div[@class='YibKl MC R2 Gi z Z BB pBbQr']"
 PROFILE_PICTURE = "a.kjIqZ.I.ui_social_avatar.inline img"
 DATE = "div.cRVSd"
@@ -94,7 +94,7 @@ def get_json_comment(node_comment):
       N: node_comment[N].get_text(strip=True) if node_comment[N] else "",
       T: node_comment[T].get_text(strip=True) if node_comment[T] else "",
       C: escape_single_quotes(node_comment[C].get_text()) if node_comment[C] else "",
-      LC: "{0}{1}".format(URL_ADVISOR, node_comment[LC].get("href")),
+      LC: "{1}".format(URL_ADVISOR, node_comment[LC].get("href")),
       R: node_comment[R]
     }
     return json_comment
