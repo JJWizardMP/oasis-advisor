@@ -163,7 +163,7 @@ cython_debug/
 #.idea/
 
 # Exclude html sources
-html/
+#html/
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node

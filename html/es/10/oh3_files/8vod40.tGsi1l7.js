@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["8vod40",(r,t)=>{var u,e=({shouldLoad:r,children:t})=>{var e=u(r);return r&&!e.current&&(e.current=!0),e.current?t:null};return[()=>{r("default",e)},[r=>u=r.useRef]]},["o4yt4q"]]);
